@@ -1,5 +1,5 @@
 [package]
-name = "cronitor"
+name = "cronitor_core"
 version = "0.1.0"
 authors = ["Floris-xlx floris@xylex.ai"]	
 edition = "2021"
@@ -9,14 +9,7 @@ description = "Make cron jobs but SIMPLER"
 
 
 [dependencies]
-cronitor_macro = { path = "cronitor_macro" }
-cronitor_runtime = { path = "cronitor_runtime" }
+cronitor_macro = { path = "../cronitor_macro" }
+cronitor_runtime = { path = "../cronitor_runtime" }
 ctor = "0.2.8"
 
-
-[workspace]
-members = [
-    "cronitor_macro",
-    "cronitor_runtime",
-    "cronitor_core"
-]
