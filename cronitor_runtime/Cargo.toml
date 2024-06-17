@@ -1,0 +1,11 @@
+[package]
+name = "cronitor_runtime"
+version = "0.1.0"
+edition = "2021"
+authors = ["Floris-xlx @ xylex.ai"]
+description = "A runtime for cronitor"
+
+[dependencies]
+lazy_static = "1.4.0"
+chrono = "0.4.38"
+cron = "0.12.1"

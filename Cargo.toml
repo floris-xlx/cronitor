@@ -1,0 +1,26 @@
+[package]
+name = "cronitor"
+version = "0.1.0"
+authors = ["Floris-xlx floris@xylex.ai"]	
+edition = "2021"
+license = "mit"
+repository = "https://github.com/floris-xlx/cronitor"
+description = "Make cron jobs but SIMPLER"
+
+
+[dependencies]
+chrono = "0.4.38"
+colored = "2.1.0"
+cron = "0.12.1"
+lazy_static = "1.4.0"
+proc-macro2 = "1.0.85"
+quote = "1.0.36"
+syn = { version = "2.0.66", features = ["full"] }
+cronitor_macro = { path = "cronitor_macro" }
+cronitor_runtime = { path = "cronitor_runtime" }
+
+[workspace]
+members = [
+    "cronitor_macro",
+    "cronitor_runtime",
+]
