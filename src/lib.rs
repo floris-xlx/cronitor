@@ -2,6 +2,16 @@
 //! 
 //! Cronitor is a simple and efficient cron framework in Rust. It allows you to schedule and run cron jobs with ease.
 //! 
+//! !! ATTENTION !!
+//! YOU WILL NEED DEPENDENCIES as proc-macros can be funny sometimes.
+//! 
+//! ```toml
+//! cronitor = { git = "https://github.com/floris-xlx/cronitor.git", branch = "main" }
+//! cronitor_runtime = { git = "https://github.com/floris-xlx/cronitor.git", branch = "main" }
+//! ctor = "0.2.8"
+//! ```
+//! 
+//! 
 //! ## Examples
 //! 
 //! Here are some examples of how to use Cronitor:
