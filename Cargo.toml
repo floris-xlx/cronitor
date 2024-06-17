@@ -17,6 +17,5 @@ ctor = "0.2.8"
 [workspace]
 members = [
     "cronitor_macro",
-    "cronitor_runtime",
-    "cronitor_core"
+    "cronitor_runtime"
 ]
