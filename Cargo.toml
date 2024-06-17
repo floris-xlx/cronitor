@@ -9,9 +9,10 @@ description = "Make cron jobs but SIMPLER"
 
 
 [dependencies]
-cronitor_macro = { path = "./cronitor_macro" }
-cronitor_runtime = { path = "./cronitor_runtime" }
+cronitor_macro = { path = "cronitor_macro" }
+cronitor_runtime = { path = "cronitor_runtime" }
 ctor = "0.2.8"
+
 
 [workspace]
 members = [
