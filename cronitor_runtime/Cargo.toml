@@ -1,9 +1,11 @@
 [package]
 name = "cronitor_runtime"
 version = "0.1.0"
+authors = ["Floris-xlx floris@xylex.ai"]	
 edition = "2021"
-authors = ["Floris-xlx @ xylex.ai"]
-description = "A runtime for cronitor"
+license = "MIT"
+repository = "https://github.com/floris-xlx/cronitor"
+description = "runtime library for cronitor"
 
 [dependencies]
 lazy_static = "1.4.0"
