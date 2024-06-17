@@ -9,8 +9,8 @@ description = "Make cron jobs but SIMPLER"
 
 
 [dependencies]
-cronitor_macro = { version = "0.1.0", path = "cronitor_macro" }
-cronitor_runtime = { version = "0.1.0", git = "https://github.com/floris-xlx/cronitor.git", branch = "main" }
+cronitor_macro = "0.1.0"
+cronitor_runtime = "0.1.0"
 ctor = "0.2.8"
 
 
