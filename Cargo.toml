@@ -9,8 +9,8 @@ description = "Make cron jobs but SIMPLER"
 
 
 [dependencies]
-cronitor_macro = { path = "cronitor_macro" }
-cronitor_runtime = { path = "cronitor_runtime" }
+cronitor_macro = { version = "0.1.0", path = "cronitor_macro" }
+cronitor_runtime = { version = "0.1.0", path = "cronitor_runtime" }
 ctor = "0.2.8"
 
 
