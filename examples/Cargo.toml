@@ -1,0 +1,8 @@
+[package]
+name = "examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cronitor_macro = { path = "../cronitor_macro" }
+cronitor_runtime = { path = "../cronitor_runtime" }
