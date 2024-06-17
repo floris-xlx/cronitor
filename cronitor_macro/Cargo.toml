@@ -3,6 +3,7 @@ name = "cronitor_macro"
 version = "0.1.0"
 edition = "2021"
 authors = ["Floris-xlx @ xylex.ai"]
+license = "MIT"
 description = "A macro for cronitor"
 
 [dependencies]
