@@ -10,13 +10,14 @@ pub fn cronitor(attr: TokenStream, item: TokenStream) -> TokenStream {
 
     let input = parse_macro_input!(item as ItemFn);
     let fn_name = &input.sig.ident;
-    let fn_block = &input.block;
     let fn_name_str = fn_name.to_string();
+    let register_fn_name = syn::Ident::new(&format!("register_task_{}", fn_name_str), fn_name.span());
 
     let expanded = quote! {
-        fn #fn_name() {
-            #fn_block
+        #input
 
+        #[ctor::ctor]
+        fn #register_fn_name() {
             cronitor_runtime::CRON_REGISTRY.lock().unwrap().register(#fn_name_str.to_string(), #cron_expression_str.to_string(), #fn_name);
         }
     };
