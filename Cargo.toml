@@ -3,7 +3,7 @@ name = "cronitor"
 version = "0.1.0"
 authors = ["Floris-xlx floris@xylex.ai"]	
 edition = "2021"
-license = "mit"
+license = "MIT"
 repository = "https://github.com/floris-xlx/cronitor"
 description = "Make cron jobs but SIMPLER"
 
