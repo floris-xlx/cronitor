@@ -94,4 +94,6 @@
 
 pub use cronitor_macro::cronitor;
 pub use cronitor_runtime::cron_runtime;
-pub use ctor;
+
+extern crate cronitor_macro;
+extern crate cronitor_runtime;
